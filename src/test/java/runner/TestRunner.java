@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 		@RunWith(Cucumber.class)
 		@CucumberOptions(
 				features ="classpath:features",
-				glue = { "stepDefination" }, monochrome = true, plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"})
+				glue = { "stepDefination" }, monochrome = true, plugin = {"com.cucumber.listener.ExtentCucumberFormatter:cucumber-reports/report.html"})
 
 		public class TestRunner {
 			

@@ -51,5 +51,9 @@ public class NavigateToSite extends Baseclass {
 		}
 		
 	}
+	@And("^close all browser$")
+	public void close_all_browser(){
+		Baseclass.closeAllBrowsers();
+	}
 	
 }

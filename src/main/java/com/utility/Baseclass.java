@@ -94,12 +94,19 @@ public class Baseclass {
 			e.printStackTrace();
 		}
 	}
+	
+	public static void closeAllBrowsers() {
+		driver.quit();
+	}
 
 	@AfterClass
 	public static void writeExtentReport() {
 		Reporter.loadXMLConfig("./BusinessHubProject/src/extent-config/extent-config.xml");
 		
 	}
+	
+	
+	
 	
 	
 }

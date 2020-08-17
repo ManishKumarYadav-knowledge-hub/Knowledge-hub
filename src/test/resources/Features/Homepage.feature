@@ -4,7 +4,7 @@ Given Open site in "<browser>"
 When navigate to the site
 Then verify the home page title
 And click view all article button
-
+And close all browser
 
 Examples: Different browser parameter
       		|browser|

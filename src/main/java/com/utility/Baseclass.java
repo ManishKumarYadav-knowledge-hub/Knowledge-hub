@@ -98,6 +98,7 @@ public class Baseclass {
 	@AfterClass
 	public static void writeExtentReport() {
 		Reporter.loadXMLConfig("./BusinessHubProject/src/extent-config/extent-config.xml");
+		
 	}
 	
 	

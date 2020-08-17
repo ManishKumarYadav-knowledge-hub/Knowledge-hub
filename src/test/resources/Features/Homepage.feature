@@ -11,6 +11,3 @@ Examples: Different browser parameter
       		|edge|
       		|chrome|
       		|firefox|
-      		
-      		
-      		

@@ -108,9 +108,4 @@ public class Baseclass {
 		Reporter.loadXMLConfig("./BusinessHubProject/src/extent-config/extent-config.xml");
 		
 	}
-	
-	
-	
-	
-	
 }

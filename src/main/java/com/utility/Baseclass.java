@@ -96,7 +96,11 @@ public class Baseclass {
 	}
 	
 	public static void closeAllBrowsers() {
+		if(driver!=null){
 		driver.quit();
+		}else{
+			System.out.println("Session is null");
+		}
 	}
 
 	@AfterClass
